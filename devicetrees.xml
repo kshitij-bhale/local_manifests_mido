@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!--Remote-->
- <remote name="kshitij" fetch="https://github.com/kshitij-bhale" />
- <remote name="zeelog" fetch="https://github.com/zeelog" />
- <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- 
- <!--Trees-->
- <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="kshitij" revision="witaqua-15" />
- <project path="vendor/xiaomi/mido" name="proprietary_vendor_xiaomi/mido" remote="zeelog" revision="lineage-22.2" />
- <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="zeelog" revision="lineage-22.2" />
+  <!-- Remotes -->
+  <remote name="kshitij" fetch="https://github.com/kshitij-bhale" />
+  <remote name="zeelog" fetch="https://github.com/zeelog" />
+  <remote name="NRanjan" fetch="https://github.com/NRanjan-17" />
+
+  <!-- Trees -->
+  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="kshitij" revision="witaqua-15" />
+  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan" revision="fifteen" />
+  <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="zeelog" revision="lineage-22.2" />
 </manifest>
