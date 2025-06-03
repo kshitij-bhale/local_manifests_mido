@@ -2,6 +2,7 @@
 <manifest>
   <!-- Remotes -->
   <remote name="kshitij" fetch="https://github.com/kshitij-bhale" />
+  <remote name="dxui" fetch="https://github.com/DroidX-UI" />
   <remote name="zeelog" fetch="https://github.com/zeelog" />
   <remote name="NRanjan" fetch="https://github.com/NRanjan-17" />
 
@@ -9,4 +10,5 @@
   <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="kshitij" revision="witaqua-15" />
   <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan" revision="fifteen" />
   <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="zeelog" revision="lineage-22.2" />
+  <project name="hardware_xiaomi" path="hardware/xiaomi" remote="dxui" revision="15" />
 </manifest>
